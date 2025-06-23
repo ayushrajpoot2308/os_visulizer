@@ -1,0 +1,40 @@
+.dashboard {
+    text-align: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .dash-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .dash-subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 40px;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .dash-card {
+    padding: 30px 20px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .dash-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  }
+  

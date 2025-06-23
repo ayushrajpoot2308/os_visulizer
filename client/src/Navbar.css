@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 16px;
+    background: #282c34;
+  }
+  
+  .nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+  }
+  
+  .nav a.active {
+    background: #61dafb;
+    color: black;
+  }
+  

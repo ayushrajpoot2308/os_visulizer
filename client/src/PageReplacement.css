@@ -1,0 +1,38 @@
+.page-replacement-container {
+    padding: 20px;
+    color: white;
+  }
+  
+  .input-panel {
+    margin-bottom: 20px;
+  }
+  
+  .input-panel label {
+    margin-right: 10px;
+  }
+  
+  .input-panel input {
+    margin-right: 20px;
+    padding: 5px;
+  }
+  
+  .frame-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .frame-table th,
+  .frame-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+  }
+  
+  .frame-table th {
+    background-color: #333;
+    color: #61dafb;
+  }
+  
